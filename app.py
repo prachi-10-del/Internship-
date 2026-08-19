@@ -5,8 +5,7 @@ from pathlib import Path
 
 st.set_page_config(
     page_title="My Expense Tracker",
-    page_icon="💰",
-    layout="wide"
+    page_icon="💰"
 )
 
 # =========================
