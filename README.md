@@ -2,7 +2,7 @@
 
 # 🎓 Internship Tasks & Projects
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://internship2026-zarqnvicjwecp8wadn4cuw.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://expense-tracker-6pjdhi5v68znpabfqtuqvm.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/)
@@ -14,7 +14,7 @@
 </p>
 
 <h3>
-  <a href="https://internship2026-zarqnvicjwecp8wadn4cuw.streamlit.app/">
+  <a href="https://expense-tracker-6pjdhi5v68znpabfqtuqvm.streamlit.app/">
     👉 View Live Streamlit Application 👈
   </a>
 </h3>
@@ -27,11 +27,9 @@
 
 <div align="center">
 
-<!-- Add your application screenshot here -->
-
-<img src="https://via.placeholder.com/700x400.png?text=Streamlit+Application+Preview"
+<img src="https://via.placeholder.com/700x400.png?text=Expense+Tracker+Streamlit+App"
 width="700"
-alt="Streamlit Application Preview" />
+alt="Expense Tracker Streamlit Application Preview" />
 
 </div>
 
@@ -64,6 +62,9 @@ The repository contains different Python programs and data files developed durin
 │
 ├── 📊 expenses.csv
 │   └── Expense dataset used by the application
+│
+├── 📦 requirements.txt
+│   └── Required Python libraries
 │
 └── 📖 README.md
     └── Project documentation
@@ -156,19 +157,24 @@ A simple Python program demonstrating exception handling using `try` and `except
 
 This project includes an interactive Streamlit application for working with expense data.
 
-**Features:**
+### ✨ Features
 
 * 📊 Expense data handling
 * 📁 CSV file integration
 * 🔢 Data processing
+* 📈 Data visualization
 * 🎨 Interactive user interface
 * ⚡ Real-time application interaction
 
-**Dataset:**
+### 📄 Dataset
 
 `expenses.csv`
 
 The CSV file contains the expense data used by the application.
+
+### 🌐 Live Application
+
+**[👉 Open Expense Tracker](https://expense-tracker-6pjdhi5v68znpabfqtuqvm.streamlit.app/)**
 
 ---
 
@@ -179,6 +185,7 @@ The CSV file contains the expense data used by the application.
 | 🐍 Python        | Programming and data processing |
 | 🎈 Streamlit     | Web application development     |
 | 📊 Pandas        | Data handling and analysis      |
+| 📈 Matplotlib    | Data visualization              |
 | 📄 CSV           | Data storage                    |
 | 📁 File Handling | Reading and processing files    |
 | 🔧 Git           | Version control                 |
@@ -225,7 +232,7 @@ source .venv/bin/activate
 ### 5. Install Required Libraries
 
 ```bash
-pip install streamlit pandas
+pip install -r requirements.txt
 ```
 
 ### 6. Run the Streamlit Application
@@ -240,9 +247,9 @@ The application will open in your browser.
 
 ## ☁️ Streamlit Cloud Deployment
 
-The application can be deployed using Streamlit Community Cloud.
+The application is deployed using Streamlit Community Cloud.
 
-### Steps:
+### Deployment Steps
 
 1. Sign in using your GitHub account.
 2. Select the `Internship` repository.
@@ -254,11 +261,11 @@ app.py
 ```
 
 5. Click **Deploy**.
-6. Your Streamlit application will be available online.
+6. Streamlit Cloud builds and hosts the application.
 
 ### 🌐 Live Application
 
-[👉 Open Live Streamlit Application](https://internship2026-zarqnvicjwecp8wadn4cuw.streamlit.app/)
+[👉 Open Expense Tracker Application](https://expense-tracker-6pjdhi5v68znpabfqtuqvm.streamlit.app/)
 
 ---
 
@@ -272,6 +279,7 @@ During this internship, I worked with:
 * 📁 File Handling
 * ⚠️ Exception Handling
 * 📄 CSV Data
+* 📈 Data Visualization
 * 🎈 Streamlit
 * 🐙 Git & GitHub
 * ☁️ Streamlit Cloud Deployment
@@ -284,7 +292,7 @@ Some possible improvements for this project include:
 
 * 📊 Add more data visualizations
 * 🔍 Add search and filtering options
-* 📈 Add expense charts
+* 📈 Add more expense charts
 * 💾 Improve data storage
 * 🎨 Improve the Streamlit UI
 * 🔐 Add better input validation
