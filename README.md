@@ -15,7 +15,7 @@
 
 <h3>
   <a href="https://expense-tracker-6pjdhi5v68znpabfqtuqvm.streamlit.app/">
-    👉 View Live Streamlit Application 👈
+    👉 View Live Expense Tracker Application 👈
   </a>
 </h3>
 
@@ -27,9 +27,9 @@
 
 <div align="center">
 
-<img src="https://via.placeholder.com/700x400.png?text=Expense+Tracker+Streamlit+App"
+<img src="https://via.placeholder.com/700x400.png?text=Internship+Streamlit+Applications"
 width="700"
-alt="Expense Tracker Streamlit Application Preview" />
+alt="Internship Streamlit Applications Preview" />
 
 </div>
 
@@ -37,7 +37,7 @@ alt="Expense Tracker Streamlit Application Preview" />
 
 ## 📁 Repository Map
 
-The repository contains different Python programs and data files developed during the internship.
+The repository contains different Python programs, data files, and Streamlit applications developed during the internship.
 
 ```text
 📂 Internship
@@ -58,7 +58,10 @@ The repository contains different Python programs and data files developed durin
 │   └── Example of Python exception handling
 │
 ├── 🎈 app.py
-│   └── Main Streamlit web application
+│   └── Expense management Streamlit application
+│
+├── 🌤️ weather_app.py
+│   └── Weather information Streamlit application
 │
 ├── 📊 expenses.csv
 │   └── Expense dataset used by the application
@@ -149,13 +152,13 @@ A simple Python program demonstrating exception handling using `try` and `except
 
 ---
 
-## 🎈 Streamlit Application
+## 🎈 Streamlit Applications
 
-### 📊 Expense Management Application
+### 📊 1. Expense Management Application
 
 **Main File:** `app.py`
 
-This project includes an interactive Streamlit application for working with expense data.
+An interactive Streamlit application for managing and analyzing expense data.
 
 ### ✨ Features
 
@@ -178,24 +181,58 @@ The CSV file contains the expense data used by the application.
 
 ---
 
+### 🌤️ 2. Weather Application
+
+**Main File:** `weather_app.py`
+
+An interactive Streamlit weather application that allows users to enter a city and view current weather information.
+
+The application fetches weather data and displays important weather metrics in an easy-to-understand interface.
+
+### ✨ Features
+
+* 🌍 Search weather by city
+* 🌡️ Display temperature
+* 💨 Display wind speed
+* 💧 Display humidity
+* 🕐 Show weather reading timestamp
+* ⚡ API-based weather data
+* 🎨 Interactive Streamlit interface
+* 💾 Cached API requests for efficient data fetching
+* ⚠️ Error handling for invalid requests
+
+### 🌐 Weather API
+
+The application uses the **Open-Meteo API**, which provides weather data without requiring an API key.
+
+### ▶️ Run Weather Application
+
+```bash
+streamlit run weather_app.py
+```
+
+---
+
 ## 🧰 Technologies Used
 
-| Technology       | Purpose                         |
-| ---------------- | ------------------------------- |
-| 🐍 Python        | Programming and data processing |
-| 🎈 Streamlit     | Web application development     |
-| 📊 Pandas        | Data handling and analysis      |
-| 📈 Matplotlib    | Data visualization              |
-| 📄 CSV           | Data storage                    |
-| 📁 File Handling | Reading and processing files    |
-| 🔧 Git           | Version control                 |
-| 🐙 GitHub        | Repository and project hosting  |
+| Technology         | Purpose                                 |
+| ------------------ | --------------------------------------- |
+| 🐍 Python          | Programming and data processing         |
+| 🎈 Streamlit       | Interactive web application development |
+| 📊 Pandas          | Data handling and analysis              |
+| 📈 Matplotlib      | Data visualization                      |
+| 🌤️ Open-Meteo API | Weather data                            |
+| 📄 CSV             | Data storage                            |
+| 📁 File Handling   | Reading and processing files            |
+| 🔧 Git             | Version control                         |
+| 🐙 GitHub          | Repository and project hosting          |
+| ☁️ Streamlit Cloud | Application deployment                  |
 
 ---
 
 ## 💻 How to Run Locally
 
-Follow these steps to run the project on your computer.
+Follow these steps to run the projects on your computer.
 
 ### 1. Clone the Repository
 
@@ -235,19 +272,25 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 6. Run the Streamlit Application
+### 6. Run the Expense Tracker
 
 ```bash
 streamlit run app.py
 ```
 
-The application will open in your browser.
+### 7. Run the Weather Application
+
+```bash
+streamlit run weather_app.py
+```
+
+The selected application will open in your browser.
 
 ---
 
 ## ☁️ Streamlit Cloud Deployment
 
-The application is deployed using Streamlit Community Cloud.
+The Expense Tracker application is deployed using Streamlit Community Cloud.
 
 ### Deployment Steps
 
@@ -281,6 +324,8 @@ During this internship, I worked with:
 * 📄 CSV Data
 * 📈 Data Visualization
 * 🎈 Streamlit
+* 🌤️ API Integration
+* 🌐 Weather Data
 * 🐙 Git & GitHub
 * ☁️ Streamlit Cloud Deployment
 
@@ -288,14 +333,17 @@ During this internship, I worked with:
 
 ## 🚀 Future Improvements
 
-Some possible improvements for this project include:
+Some possible improvements for these projects include:
 
 * 📊 Add more data visualizations
 * 🔍 Add search and filtering options
 * 📈 Add more expense charts
+* 🌤️ Add weather forecasts
+* 📍 Add location-based weather search
 * 💾 Improve data storage
-* 🎨 Improve the Streamlit UI
+* 🎨 Improve Streamlit UI
 * 🔐 Add better input validation
+* 📱 Improve mobile responsiveness
 
 ---
 
@@ -314,7 +362,7 @@ Python & Streamlit Internship Project
 <sub>
 Developed during my Python & Streamlit Internship.
 <br />
-Powered by Python 🐍, Streamlit 🎈 and GitHub 🐙.
+Powered by Python 🐍, Streamlit 🎈, APIs 🌐 and GitHub 🐙.
 </sub>
 
 </div>
