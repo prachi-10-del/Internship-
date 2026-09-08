@@ -2,5 +2,4 @@ streamlit
 pandas
 matplotlib
 numpy
-PyPDF2
 scikit-learn
